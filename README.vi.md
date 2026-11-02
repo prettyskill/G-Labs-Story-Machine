@@ -8,9 +8,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest"><img alt="Tải về cho Windows" src="https://img.shields.io/badge/T%E1%BA%A3i%20v%E1%BB%81-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"></a>&nbsp;
-  <a href="https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest"><img alt="Tải về cho macOS (Apple Silicon)" src="https://img.shields.io/badge/T%E1%BA%A3i%20v%E1%BB%81-macOS%20Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white"></a>&nbsp;
-  <a href="https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest"><img alt="Tải về cho macOS (Intel)" src="https://img.shields.io/badge/T%E1%BA%A3i%20v%E1%BB%81-macOS%20Intel-555555?style=for-the-badge&logo=apple&logoColor=white"></a>
+  <a href="https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest/download/G-Labs-Story-Machine-setup.exe"><img alt="Tải về cho Windows" src="https://img.shields.io/badge/T%E1%BA%A3i%20v%E1%BB%81-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"></a>&nbsp;
+  <a href="https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest/download/G-Labs-Story-Machine-mac-arm64.dmg"><img alt="Tải về cho macOS (Apple Silicon)" src="https://img.shields.io/badge/T%E1%BA%A3i%20v%E1%BB%81-macOS%20Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white"></a>&nbsp;
+  <a href="https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest/download/G-Labs-Story-Machine-mac-intel.dmg"><img alt="Tải về cho macOS (Intel)" src="https://img.shields.io/badge/T%E1%BA%A3i%20v%E1%BB%81-macOS%20Intel-555555?style=for-the-badge&logo=apple&logoColor=white"></a>
 </p>
 
 ---
@@ -19,13 +19,13 @@
 
 ### Bước 1 - Chọn đúng bản cho máy của bạn
 
-Tải bản mới nhất từ **[Releases](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest)**, rồi chọn tệp theo đúng máy (`<version>` là số phiên bản, ví dụ `2.0.6`):
+Tải bản mới nhất từ **[Releases](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest)**, rồi chọn tệp theo đúng máy:
 
 | Máy của bạn | Tải tệp | Ghi chú |
 |---|---|---|
-| 🪟 **Windows 10/11 (64-bit)** | [`StoryMachine-<version>-setup.exe`](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest) | Trình cài đặt cho mọi PC Windows |
-| 🍎 **Mac chip Apple (M1/M2/M3/M4)** | [`StoryMachine-<version>-arm64.dmg`](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest) | macOS 12 trở lên |
-| 🍎 **Mac chip Intel** | [`StoryMachine-<version>-intel.dmg`](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest) | Mac đời cũ |
+| 🪟 **Windows 10/11 (64-bit)** | [`G-Labs-Story-Machine-setup.exe`](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest/download/G-Labs-Story-Machine-setup.exe) | Trình cài đặt cho mọi PC Windows |
+| 🍎 **Mac chip Apple (M1/M2/M3/M4)** | [`G-Labs-Story-Machine-mac-arm64.dmg`](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest/download/G-Labs-Story-Machine-mac-arm64.dmg) | macOS 12 trở lên |
+| 🍎 **Mac chip Intel** | [`G-Labs-Story-Machine-mac-intel.dmg`](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest/download/G-Labs-Story-Machine-mac-intel.dmg) | Mac đời cũ |
 
 **Không chắc Mac của bạn chip gì?** Bấm biểu tượng  ở góc trên bên trái → **About This Mac**:
 - Có dòng **Chip** ghi "Apple M1 / M2 / M3…" → tải bản **arm64**.
@@ -38,7 +38,7 @@ Tải bản mới nhất từ **[Releases](https://github.com/duckmartians/G-Lab
 <details open>
 <summary><b>🪟 Trên Windows</b></summary>
 
-1. Mở tệp **`StoryMachine-<version>-setup.exe`** vừa tải.
+1. Mở tệp **`G-Labs-Story-Machine-setup.exe`** vừa tải.
 2. Nếu hiện bảng **"Windows protected your PC"** (SmartScreen): bấm **More info** → **Run anyway**. *(App chưa mua chứng chỉ ký của Microsoft nên bị cảnh báo - không phải virus.)*
 3. Làm theo trình cài đặt - giữ thư mục mặc định hoặc chọn thư mục khác. Lối tắt trên Desktop và Start Menu được tạo sẵn.
 4. Mở **G-Labs Story Machine** từ **Start Menu** hoặc lối tắt trên **Desktop**.

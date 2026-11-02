@@ -8,9 +8,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest"><img alt="Download for Windows" src="https://img.shields.io/badge/Download-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"></a>&nbsp;
-  <a href="https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest"><img alt="Download for macOS (Apple Silicon)" src="https://img.shields.io/badge/Download-macOS%20Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white"></a>&nbsp;
-  <a href="https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest"><img alt="Download for macOS (Intel)" src="https://img.shields.io/badge/Download-macOS%20Intel-555555?style=for-the-badge&logo=apple&logoColor=white"></a>
+  <a href="https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest/download/G-Labs-Story-Machine-setup.exe"><img alt="Download for Windows" src="https://img.shields.io/badge/Download-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white"></a>&nbsp;
+  <a href="https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest/download/G-Labs-Story-Machine-mac-arm64.dmg"><img alt="Download for macOS (Apple Silicon)" src="https://img.shields.io/badge/Download-macOS%20Apple%20Silicon-000000?style=for-the-badge&logo=apple&logoColor=white"></a>&nbsp;
+  <a href="https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest/download/G-Labs-Story-Machine-mac-intel.dmg"><img alt="Download for macOS (Intel)" src="https://img.shields.io/badge/Download-macOS%20Intel-555555?style=for-the-badge&logo=apple&logoColor=white"></a>
 </p>
 
 ---
@@ -19,13 +19,13 @@
 
 ### Step 1 - Pick the right build for your machine
 
-Download the latest build from **[Releases](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest)**, then choose the file that matches your machine (`<version>` is the release number, e.g. `2.0.6`):
+Download the latest build from **[Releases](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest)**, then choose the file that matches your machine:
 
 | Your machine | Download | Notes |
 |---|---|---|
-| 🪟 **Windows 10/11 (64-bit)** | [`StoryMachine-<version>-setup.exe`](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest) | Installer for any Windows PC |
-| 🍎 **Mac with Apple chip (M1/M2/M3/M4)** | [`StoryMachine-<version>-arm64.dmg`](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest) | macOS 12 or later |
-| 🍎 **Mac with Intel chip** | [`StoryMachine-<version>-intel.dmg`](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest) | Older Macs |
+| 🪟 **Windows 10/11 (64-bit)** | [`G-Labs-Story-Machine-setup.exe`](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest/download/G-Labs-Story-Machine-setup.exe) | Installer for any Windows PC |
+| 🍎 **Mac with Apple chip (M1/M2/M3/M4)** | [`G-Labs-Story-Machine-mac-arm64.dmg`](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest/download/G-Labs-Story-Machine-mac-arm64.dmg) | macOS 12 or later |
+| 🍎 **Mac with Intel chip** | [`G-Labs-Story-Machine-mac-intel.dmg`](https://github.com/duckmartians/G-Labs-Story-Machine/releases/latest/download/G-Labs-Story-Machine-mac-intel.dmg) | Older Macs |
 
 **Not sure which chip your Mac has?** Click the  menu (top-left) → **About This Mac**:
 - A **Chip** line reading "Apple M1 / M2 / M3…" → download the **arm64** build.
@@ -38,7 +38,7 @@ Download the latest build from **[Releases](https://github.com/duckmartians/G-La
 <details open>
 <summary><b>🪟 On Windows</b></summary>
 
-1. Open the downloaded **`StoryMachine-<version>-setup.exe`**.
+1. Open the downloaded **`G-Labs-Story-Machine-setup.exe`**.
 2. If **"Windows protected your PC"** (SmartScreen) appears: click **More info** → **Run anyway**. *(The app isn't code-signed with a Microsoft certificate, so it's flagged - it isn't a virus.)*
 3. Follow the installer - you can keep the default folder or pick another. Desktop and Start Menu shortcuts are created for you.
 4. Launch **G-Labs Story Machine** from the **Start Menu** or the **Desktop** shortcut.
