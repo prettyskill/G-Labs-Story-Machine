@@ -39,7 +39,7 @@ Tải bản mới nhất từ **[Releases](https://github.com/duckmartians/G-Lab
 <summary><b>🪟 Trên Windows</b></summary>
 
 1. Mở tệp **`G-Labs-Story-Machine-setup.exe`** vừa tải.
-2. Nếu hiện bảng **"Windows protected your PC"** (SmartScreen): bấm **More info** → **Run anyway**. *(App chưa mua chứng chỉ ký của Microsoft nên bị cảnh báo - không phải virus.)*
+2. Bộ cài đã ký số, nhà phát hành **DUCKMARTIANS**. Nếu bản mới vẫn hiện bảng **"Windows protected your PC"** (SmartScreen), kiểm tra nhà phát hành là DUCKMARTIANS rồi bấm **More info** → **Run anyway**.
 3. Làm theo trình cài đặt - giữ thư mục mặc định hoặc chọn thư mục khác. Lối tắt trên Desktop và Start Menu được tạo sẵn.
 4. Mở **G-Labs Story Machine** từ **Start Menu** hoặc lối tắt trên **Desktop**.
 
@@ -176,7 +176,7 @@ Bạn có thể đổi thư mục lưu trong **Cài đặt → Thư mục lưu o
 
 **Một cảnh báo webhook không còn task** - webhook đã khởi động lại hoặc task hết hạn; bấm tạo lại ở cảnh đó.
 
-**Windows chặn ở "Windows protected your PC"** - bấm **More info → Run anyway**. App chưa mua chứng chỉ ký của Microsoft nên bị cảnh báo, không phải virus.
+**Windows hiện bảng "Windows protected your PC"** - bộ cài đã ký số DUCKMARTIANS, nhưng SmartScreen vẫn có thể cảnh báo với bản vừa phát hành. Kiểm tra nhà phát hành là DUCKMARTIANS rồi bấm **More info → Run anyway**.
 
 **macOS báo ứng dụng bị hỏng / không mở được** - app chưa được Apple ký. Chuột phải → **Open** ở lần đầu, hoặc chạy `xattr -dr com.apple.quarantine "/Applications/G-Labs Story Machine.app"`.
 
