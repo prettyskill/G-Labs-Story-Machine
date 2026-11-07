@@ -133,6 +133,8 @@ LLM chia câu chuyện thành cảnh, mỗi cảnh có thời lượng và promp
 
 ### 🧑‍🎨 Thành phần &amp; trang phục
 
+![Thành phần](docs/media/vi/cast.webp)
+
 Trước khi vẽ cảnh, app lập danh sách nhân vật, bối cảnh, đạo cụ từ kết quả Phân tích, tự viết mô tả và vẽ ảnh tham chiếu cho từng thứ (bạn cũng có thể tải ảnh của mình lên). Mỗi cảnh tự gửi kèm ảnh của những gì xuất hiện trong cảnh. Bật **Trang phục theo cảnh** để nhân vật chính đổi bộ đồ theo diễn biến - mỗi bộ được vẽ sửa từ ảnh gốc của nhân vật, chỉ đổi quần áo.
 
 ### 🎥 Tạo video

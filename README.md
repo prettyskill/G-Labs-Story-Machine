@@ -133,6 +133,8 @@ The LLM breaks the story into scenes, each with its own duration and prompt; ima
 
 ### 🧑‍🎨 Components &amp; outfits
 
+![Components](docs/media/en/cast.webp)
+
 Before drawing scenes, the app lists the characters, locations and props from the analysis, writes a description and draws a reference image for each (or upload your own). Every scene automatically carries the images of what appears in it. Turn on **Outfits by scene** and main characters change clothes as the story moves on - each outfit is drawn by editing the character's own image, only the clothes change.
 
 ### 🎥 Videos
