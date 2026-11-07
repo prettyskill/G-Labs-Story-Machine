@@ -64,8 +64,7 @@ FFmpeg is bundled in both builds - nothing extra to install.
 
 **Story Machine is not sold on its own.** It opens for **your account on an active G-Labs Studio MAX plan**: sign in with Google using that account, and the license server checks your plan every time. A MAX plan bought through G-Labs Studio, Auto Flow or Auto Vibes counts too, since it includes G-Labs Studio Max. If the account isn't on MAX, the app shows **"MAX plan required"** - renew or upgrade, then press **Try again**.
 
-- **Storyteller** is open to every MAX account.
-- The **Editor** mode and the **Wildlife documentary** approach are unlocked separately per account. Until then the Editor card shows **"Not open yet"**, and the Wildlife option is not offered.
+- Every mode, style and feature is open to an account on an active MAX plan.
 - The app needs the internet to sign in and receive its prompt set, and must re-check your plan at least every **72 hours**. When the plan expires the app locks; your projects stay on your computer.
 
 The app **updates itself**: it checks GitHub Releases and downloads the new version from inside the app - on Windows it runs the new installer, on macOS it opens the new `.dmg` for you to drag into Applications.
@@ -83,11 +82,10 @@ Story Machine orchestrates; it does not generate media by itself. Before your fi
 ## First run
 
 1. **Open the app and sign in with Google** using your G-Labs MAX account.
-2. **Pick a mode** on the start screen - **Storyteller** (narrative/documentary videos) or **Editor** (cut and assemble any video, if unlocked).
-3. **Open Settings** (left rail) and connect your tools: choose the LLM provider, then paste the webhook address + API key of G-Labs Studio (images/video) and of Voiceover or Voice Studio (voice).
-4. **Set the brief on the Setup page**: choose how to start (topic, script, subtitles or storyboard), then aspect ratio, length, output language, tone and image style.
-5. **Walk through the pages** - Story → Analysis → Images → Videos → Voice → SEO → Render. On each page you edit, regenerate or drop in your own files before moving on.
-6. **Render** the finished MP4 (video or slideshow), or **Export to CapCut** to finish by hand.
+2. **Open Settings** (left rail) and connect your tools: choose the LLM provider, then paste the webhook address + API key of G-Labs Studio (images/video) and of Voiceover or Voice Studio (voice).
+3. **Set the brief on the Setup page**: choose how to start (topic, script, subtitles or storyboard), then aspect ratio, length, output language, tone and image style.
+4. **Walk through the pages** - for a script: Voice → Analysis → Components → Images → Videos → SEO → Render. On each page you edit, regenerate or drop in your own files before moving on; or turn on **auto-run** and let the app go through every step.
+5. **Render** the finished MP4 (video or slideshow), or **Export to CapCut** to finish by hand.
 
 ---
 
@@ -95,41 +93,47 @@ Story Machine orchestrates; it does not generate media by itself. Before your fi
 
 ![G-Labs Story Machine](docs/media/en/images.webp)
 
-- **Four ways to start** - a **topic** (the AI researches it and writes the story and full narration), your own **script** (split into sentences and voiced), a **subtitle** `.srt` file (its timings drive every scene, no voice generated), or a **storyboard** - a dialogue screenplay with a consistent cast via reference images.
+- **Four ways to start** - **write a script from a topic** (the AI suggests ideas, an angle and a logline, then writes the script, which you then turn into a video), your own **script** (split into sentences and voiced), a **subtitle** `.srt` file (its timings drive every scene, no voice generated), or a **storyboard** - a dialogue screenplay with a consistent cast via reference images.
 - **Two run modes** - **High quality** (through scene images) and **Fast** (straight text → video, no image step; faster and cheaper).
-- **One page per step** - every step of the pipeline is its own page where you review, edit, regenerate or upload your own image/clip before going on.
-- **Three ways to picture the story** - with recurring characters, people-free illustrative b-roll, or an animals-only **wildlife documentary** (when unlocked).
-- **40+ sample image styles** - or describe your own and save it for later.
+- **One page per step** - every step of the pipeline is its own page where you review, edit, regenerate or upload your own image/clip before going on. Or turn on **auto-run** from start to finish.
+- **A consistent cast** - the **Components** page draws reference images for characters, locations and props; every scene automatically sends the right images for what appears in it, even when several characters have similar names.
+- **Outfits by scene** - the AI gives characters a different outfit when the story calls for it (a new day, rain, work, a festival...) and draws each outfit by editing the character's own image, so the face stays the same.
+- **Two ways to picture the story** - with recurring characters, or people-free illustrative b-roll (objects, places, light).
+- **61 sample image styles** - from documentary photography, 3D animation and watercolour to 11 stick-figure looks (historical cartoon, survival thriller, amber noir, prehistoric...); or describe your own and save it for later.
 - **Translate & copy-edit** - translate or polish a script/subtitle with the LLM before production, with an original ↔ translation toggle.
 - **Voiceover, music & render room** - timeline, music ducking under the voice, fade in/out, video-to-voice fitting (freeze last frame, loop or slow down), burned-in subtitles; render a video or a pan/zoom slideshow, or export a CapCut draft.
 - **SEO** - title, description, tags and thumbnail ideas for YouTube.
 - **Restore points** - go back to an earlier state of a project; restoring first saves a new point, so it can be undone too.
-- **11 interface languages** - English, Tiếng Việt, हिन्दी, Türkçe, Português, 简体中文, اردو, বাংলা, Русский, Español, ไทย.
+- **16 interface languages** - English, Tiếng Việt, हिन्दी, Türkçe, Português, 简体中文, اردو, বাংলা, Русский, Español, ไทย, العربية, Deutsch, Bahasa Indonesia, 한국어, Українська.
 
 ---
 
 ## Modes &amp; pages
 
-The start screen offers two modes. Both stay open once visited, so switching never loses work; the Home button returns to the picker.
-
-### 🎬 Storyteller - Setup
+### 🎬 Setup
 
 ![Setup](docs/media/en/setup.webp)
 
-Pick how to start - **Make a video from a topic**, **from a script**, **from subtitles** or **from a storyboard** - and the run mode (**High quality** or **Fast**). Then set aspect ratio, length, output language, tone and image style. The pages that follow depend on how you started:
+Pick how to start - **Write a script from a topic**, **Make a video from a script**, **from subtitles** or **from a storyboard** - and the run mode (**High quality** or **Fast**). Then set aspect ratio, length, output language, tone, narrative approach and image style. The pages that follow depend on how you started:
 
 | Start from | Pages |
 |---|---|
-| Topic | Setup → Story → Analysis → Images → Videos → Voice → SEO → Render |
-| Script | Setup → Voice → Analysis → Images → Videos → SEO → Render |
-| Subtitles (`.srt`) | Setup → Analysis → Images → Videos → SEO → Render |
+| Topic | Setup → Idea → Angles → Logline → Write script, then on into the Script flow |
+| Script | Setup → Voice → Analysis → Components → Images → Videos → SEO → Render |
+| Subtitles (`.srt`) | Setup → Analysis → Components → Images → Videos → SEO → Render |
 | Storyboard | Setup → Script → Components → Shot plan → Images → Videos → SEO → Render |
+
+The **Components** page appears when the narrative approach has characters.
 
 ### 🖼 Analysis &amp; Images
 
 ![Images](docs/media/en/images.webp)
 
 The LLM breaks the story into scenes, each with its own duration and prompt; images are generated through the G-Labs Studio webhook. Per scene you can edit the prompt, regenerate, or upload your own image.
+
+### 🧑‍🎨 Components &amp; outfits
+
+Before drawing scenes, the app lists the characters, locations and props from the analysis, writes a description and draws a reference image for each (or upload your own). Every scene automatically carries the images of what appears in it. Turn on **Outfits by scene** and main characters change clothes as the story moves on - each outfit is drawn by editing the character's own image, only the clothes change.
 
 ### 🎥 Videos
 
@@ -143,13 +147,9 @@ Turn scene images into clips with G-Labs Studio's video models, each scene with 
 
 Narration comes from G-Labs Voiceover or Voice Studio, or import a ready-made voiceover file. The **SEO** page suggests a title, description, tags and thumbnail ideas. The **Render** room has a timeline, music ducking, fades, video-to-voice fitting and burned-in subtitles; hit **Render Video**, **Render Slideshow** with pan/zoom effects, or **Export to CapCut**.
 
-### 🧩 Storyboard (inside Storyteller)
+### 🧩 Storyboard
 
 Start from a dialogue screenplay: the app extracts characters, locations and props, draws reference images for them (**Components**), breaks the script into shots (**Shot plan**), then generates consistent per-shot images and videos.
-
-### ✂️ Editor *(separately unlocked)*
-
-Cut and assemble any video: bulk drag-in, trim, split and reorder on a waveform timeline. Auto-fit clips to subtitle cues, detected silence or a BPM grid; music ducks under narration; pan/zoom for stills; styled burn-in subtitles; queued rendering.
 
 ---
 
@@ -168,9 +168,11 @@ You can move the output folder in **Settings → Output folder**. Story content 
 
 **"MAX plan required" after signing in** - the account isn't on an active MAX plan. Renew or upgrade, then press **Try again** (it re-checks with the server).
 
-**The Editor card says "Not open yet" / no Wildlife option** - these are unlocked separately per account; your account doesn't have them yet.
-
 **"Server not responding - check that the webhook is running"** - start G-Labs Studio (and Voiceover / Voice Studio for voice) and turn on its webhook, then check the address in Settings.
+
+**Checking a webhook says "/api/tasks returned HTTP 404"** - the address points at a different program (usually the 9Router address pasted by mistake). Copy the right address from that app's Webhook page: G-Labs Studio is `http://127.0.0.1:8765` by default, Voice Studio `http://127.0.0.1:8766`.
+
+**An analysis batch says "AI replied with text instead of JSON"** - the LLM answered with a notice instead of a result, for example a retired model ("Claude Sonnet 4.6 is no longer available"). Pick another model in Settings and rerun that batch.
 
 **"The webhook rejected the API key"** - copy the API key again from G-Labs Studio's Webhook API page into Settings.
 

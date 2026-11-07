@@ -64,8 +64,7 @@ FFmpeg đã đóng gói sẵn trong cả hai bản - không cần cài thêm gì
 
 **Story Machine không bán riêng.** App mở cho **tài khoản của bạn có gói MAX của G-Labs Studio còn hạn**: đăng nhập Google bằng chính tài khoản đó, máy chủ bản quyền kiểm tra gói mỗi lần. Gói MAX mua qua G-Labs Studio, Auto Flow hay Auto Vibes đều được, vì gói Max của tiện ích đã gồm G-Labs Studio gói Max. Nếu tài khoản chưa có MAX, app hiện **"Cần gói MAX"** - gia hạn hoặc nâng cấp rồi bấm **Thử lại**.
 
-- **Storyteller** mở cho mọi tài khoản MAX.
-- Chế độ **Editor** và hướng kể chuyện **Thế giới động vật** mở riêng theo từng tài khoản. Khi chưa mở, thẻ Editor hiện **"Chưa mở"** và không có lựa chọn Thế giới động vật.
+- Mọi chế độ, phong cách và tính năng đều mở cho tài khoản có gói MAX còn hạn.
 - App cần Internet để đăng nhập và nhận bộ prompt, và phải kiểm tra lại gói ít nhất mỗi **72 giờ**. Hết hạn gói thì app khoá lại; dự án trên máy vẫn giữ nguyên.
 
 Ứng dụng **tự cập nhật**: nó kiểm tra GitHub Releases và tải bản mới ngay trong app - trên Windows nó chạy trình cài đặt mới, trên macOS nó mở tệp `.dmg` mới để bạn kéo vào Applications.
@@ -83,11 +82,10 @@ Story Machine là bộ điều phối, không tự tạo ảnh/video/giọng. Tr
 ## Lần chạy đầu tiên
 
 1. **Mở ứng dụng và đăng nhập bằng Google** với tài khoản có gói MAX của G-Labs Studio.
-2. **Chọn chế độ** ở màn hình đầu - **Storyteller** (video kể chuyện / tài liệu) hoặc **Editor** (cắt dựng video bất kỳ, nếu đã mở).
-3. **Mở Cài đặt** (thanh bên trái) và nối công cụ: chọn nhà cung cấp LLM, rồi dán địa chỉ webhook + API key của G-Labs Studio (ảnh/video) và của Voiceover hoặc Voice Studio (giọng đọc).
-4. **Đặt đề bài ở trang Thiết lập**: chọn cách bắt đầu (chủ đề, kịch bản, phụ đề hoặc storyboard), rồi tỉ lệ khung, thời lượng, ngôn ngữ đầu ra, giọng điệu và phong cách ảnh.
-5. **Đi qua từng trang** - Cốt truyện → Phân tích → Tạo ảnh → Tạo video → Giọng đọc → Tối ưu SEO → Render. Ở mỗi trang bạn sửa, tạo lại hoặc nạp file của mình trước khi sang bước sau.
-6. **Render** ra MP4 hoàn chỉnh (video hoặc slideshow), hoặc **Xuất CapCut** để chỉnh tay.
+2. **Mở Cài đặt** (thanh bên trái) và nối công cụ: chọn nhà cung cấp LLM, rồi dán địa chỉ webhook + API key của G-Labs Studio (ảnh/video) và của Voiceover hoặc Voice Studio (giọng đọc).
+3. **Đặt đề bài ở trang Thiết lập**: chọn cách bắt đầu (chủ đề, kịch bản, phụ đề hoặc storyboard), rồi tỉ lệ khung, thời lượng, ngôn ngữ đầu ra, giọng điệu và phong cách ảnh.
+4. **Đi qua từng trang** - ví dụ với kịch bản: Giọng đọc → Phân tích → Thành phần → Tạo ảnh → Tạo video → Tối ưu SEO → Render. Ở mỗi trang bạn sửa, tạo lại hoặc nạp file của mình trước khi sang bước sau; hoặc bật **chạy tự động** để app đi hết các bước.
+5. **Render** ra MP4 hoàn chỉnh (video hoặc slideshow), hoặc **Xuất CapCut** để chỉnh tay.
 
 ---
 
@@ -95,41 +93,47 @@ Story Machine là bộ điều phối, không tự tạo ảnh/video/giọng. Tr
 
 ![G-Labs Story Machine](docs/media/vi/images.webp)
 
-- **Bốn cách bắt đầu** - từ **chủ đề** (AI tự nghiên cứu, viết cốt truyện và toàn bộ lời bình), từ **kịch bản** của bạn (tự chia câu và đọc thành giọng), từ **phụ đề** `.srt` (mốc thời gian của file quyết định từng cảnh, không cần tạo giọng), hoặc từ **storyboard** - kịch bản thoại, nhân vật nhất quán bằng ảnh tham chiếu.
+- **Bốn cách bắt đầu** - **viết kịch bản từ chủ đề** (AI gợi ý ý tưởng, góc khai thác, logline rồi viết kịch bản, xong chuyển sang làm video), từ **kịch bản** của bạn (tự chia câu và đọc thành giọng), từ **phụ đề** `.srt` (mốc thời gian của file quyết định từng cảnh, không cần tạo giọng), hoặc từ **storyboard** - kịch bản thoại, nhân vật nhất quán bằng ảnh tham chiếu.
 - **Hai chế độ chạy** - **Chất lượng cao** (qua ảnh từng cảnh) và **Tạo nhanh** (thẳng chữ → video, bỏ bước ảnh; nhanh, tiết kiệm).
-- **Mỗi bước một trang** - từng bước của quy trình là một trang riêng để bạn xem lại, sửa, tạo lại hoặc nạp ảnh/clip của mình trước khi đi tiếp.
-- **Ba hướng dựng hình** - có nhân vật xuất hiện, minh hoạ không người, hoặc **phim tài liệu thế giới động vật** chỉ có động vật (khi đã mở).
-- **Hơn 40 phong cách ảnh mẫu** - hoặc tự mô tả phong cách rồi lưu lại dùng sau.
+- **Mỗi bước một trang** - từng bước của quy trình là một trang riêng để bạn xem lại, sửa, tạo lại hoặc nạp ảnh/clip của mình trước khi đi tiếp. Hoặc bật **chạy tự động** từ đầu đến cuối.
+- **Nhân vật nhất quán** - trang **Thành phần** vẽ ảnh tham chiếu cho nhân vật, bối cảnh, đạo cụ; mỗi cảnh tự gửi kèm đúng ảnh của thứ xuất hiện trong cảnh đó, đúng cả khi nhiều nhân vật có tên gần giống nhau.
+- **Trang phục theo cảnh** - AI chia bộ đồ cho từng cảnh (ngày mới, trời mưa, đi làm, lễ hội...) và vẽ mỗi bộ bằng cách sửa trên ảnh gốc của nhân vật, nên gương mặt giữ nguyên.
+- **Hai hướng dựng hình** - có nhân vật xuất hiện, hoặc minh hoạ không người (đồ vật, khung cảnh, ánh sáng).
+- **61 phong cách ảnh mẫu** - từ phim tài liệu, hoạt hình 3D, màu nước đến 11 kiểu người que (hoạt hình lịch sử, truyện sinh tồn, amber noir, tiền sử...); hoặc tự mô tả phong cách rồi lưu lại dùng sau.
 - **Dịch & biên tập** - dịch hoặc trau chuốt kịch bản/phụ đề bằng LLM trước khi sản xuất, chuyển qua lại bản gốc ↔ bản dịch.
 - **Giọng đọc, nhạc nền & phòng dựng** - thanh thời gian, tự hạ nhạc nền khi có lời, hiện/tắt dần, khớp video với giọng (giữ khung cuối, lặp hoặc làm chậm), phụ đề chèn vào hình; dựng video hoặc slideshow có lia/phóng, hoặc xuất draft CapCut.
 - **Tối ưu SEO** - tiêu đề, mô tả, tag và ý tưởng ảnh bìa cho YouTube.
 - **Điểm khôi phục** - quay về một trạng thái trước của dự án; trước khi quay về app tạo một điểm mới, nên thao tác này cũng lùi lại được.
-- **11 ngôn ngữ giao diện** - English, Tiếng Việt, हिन्दी, Türkçe, Português, 简体中文, اردو, বাংলা, Русский, Español, ไทย.
+- **16 ngôn ngữ giao diện** - English, Tiếng Việt, हिन्दी, Türkçe, Português, 简体中文, اردو, বাংলা, Русский, Español, ไทย, العربية, Deutsch, Bahasa Indonesia, 한국어, Українська.
 
 ---
 
 ## Các chế độ &amp; trang
 
-Màn hình đầu có hai chế độ. Cả hai giữ nguyên khi đã mở, nên chuyển qua lại không mất việc đang làm; nút Home đưa bạn về màn chọn.
-
-### 🎬 Storyteller - Thiết lập
+### 🎬 Thiết lập
 
 ![Thiết lập](docs/media/vi/setup.webp)
 
-Chọn cách bắt đầu - **Tạo video từ chủ đề**, **từ kịch bản**, **từ phụ đề** hoặc **từ storyboard** - và chế độ chạy (**Chất lượng cao** hoặc **Tạo nhanh**). Sau đó đặt tỉ lệ khung, thời lượng, ngôn ngữ đầu ra, giọng điệu và phong cách ảnh. Các trang tiếp theo tuỳ cách bắt đầu:
+Chọn cách bắt đầu - **Viết kịch bản từ chủ đề**, **Tạo video từ kịch bản**, **từ phụ đề** hoặc **từ storyboard** - và chế độ chạy (**Chất lượng cao** hoặc **Tạo nhanh**). Sau đó đặt tỉ lệ khung, thời lượng, ngôn ngữ đầu ra, giọng điệu, hướng kể chuyện và phong cách ảnh. Các trang tiếp theo tuỳ cách bắt đầu:
 
 | Bắt đầu từ | Các trang |
 |---|---|
-| Chủ đề | Thiết lập → Cốt truyện → Phân tích → Tạo ảnh → Tạo video → Giọng đọc → Tối ưu SEO → Render |
-| Kịch bản | Thiết lập → Giọng đọc → Phân tích → Tạo ảnh → Tạo video → Tối ưu SEO → Render |
-| Phụ đề (`.srt`) | Thiết lập → Phân tích → Tạo ảnh → Tạo video → Tối ưu SEO → Render |
+| Chủ đề | Thiết lập → Ý tưởng → Góc khai thác → Logline → Viết kịch bản, rồi chuyển sang luồng Kịch bản |
+| Kịch bản | Thiết lập → Giọng đọc → Phân tích → Thành phần → Tạo ảnh → Tạo video → Tối ưu SEO → Render |
+| Phụ đề (`.srt`) | Thiết lập → Phân tích → Thành phần → Tạo ảnh → Tạo video → Tối ưu SEO → Render |
 | Storyboard | Thiết lập → Kịch bản → Thành phần → Phác thảo → Tạo ảnh → Tạo video → Tối ưu SEO → Render |
+
+Trang **Thành phần** xuất hiện khi chọn hướng kể chuyện có nhân vật.
 
 ### 🖼 Phân tích &amp; Tạo ảnh
 
 ![Tạo ảnh](docs/media/vi/images.webp)
 
 LLM chia câu chuyện thành cảnh, mỗi cảnh có thời lượng và prompt riêng; ảnh được gửi tạo qua webhook của G-Labs Studio. Từng cảnh bạn sửa prompt, tạo lại, hoặc nạp ảnh của mình.
+
+### 🧑‍🎨 Thành phần &amp; trang phục
+
+Trước khi vẽ cảnh, app lập danh sách nhân vật, bối cảnh, đạo cụ từ kết quả Phân tích, tự viết mô tả và vẽ ảnh tham chiếu cho từng thứ (bạn cũng có thể tải ảnh của mình lên). Mỗi cảnh tự gửi kèm ảnh của những gì xuất hiện trong cảnh. Bật **Trang phục theo cảnh** để nhân vật chính đổi bộ đồ theo diễn biến - mỗi bộ được vẽ sửa từ ảnh gốc của nhân vật, chỉ đổi quần áo.
 
 ### 🎥 Tạo video
 
@@ -143,13 +147,9 @@ Biến ảnh cảnh thành clip bằng model video của G-Labs Studio, mỗi c�
 
 Giọng đọc lấy từ G-Labs Voiceover hoặc Voice Studio, hoặc nạp file thuyết minh có sẵn. Trang **Tối ưu SEO** gợi ý tiêu đề, mô tả, tag và ý tưởng ảnh bìa. Phòng **Render** có thanh thời gian, tự hạ nhạc nền, hiện/tắt dần, khớp video với giọng và phụ đề chèn vào hình; bấm **Dựng Video**, **Dựng Slideshow** có hiệu ứng lia/phóng, hoặc **Xuất CapCut**.
 
-### 🧩 Storyboard (nằm trong Storyteller)
+### 🧩 Storyboard
 
 Bắt đầu từ một kịch bản thoại: app trích nhân vật, bối cảnh và đạo cụ, vẽ ảnh tham chiếu cho chúng (**Thành phần**), chia kịch bản thành từng khung hình (**Phác thảo**), rồi tạo ảnh và video từng khung nhất quán.
-
-### ✂️ Editor *(mở riêng)*
-
-Cắt dựng video bất kỳ: kéo thả hàng loạt, cắt-tách-đổi thứ tự trên timeline có sóng âm. Tự khớp clip theo câu phụ đề, khoảng lặng dò được hoặc lưới nhịp BPM; nhạc nền tự hạ dưới giọng đọc; ảnh có pan/zoom; phụ đề burn-in chỉnh được kiểu; render xếp hàng chờ.
 
 ---
 
@@ -168,9 +168,11 @@ Bạn có thể đổi thư mục lưu trong **Cài đặt → Thư mục lưu o
 
 **Đăng nhập xong hiện "Cần gói MAX"** - tài khoản chưa có gói MAX còn hạn. Gia hạn hoặc nâng cấp rồi bấm **Thử lại** (app kiểm tra lại với máy chủ).
 
-**Thẻ Editor ghi "Chưa mở" / không có lựa chọn Thế giới động vật** - hai phần này mở riêng theo tài khoản; tài khoản của bạn chưa được mở.
-
 **"Server không phản hồi - kiểm tra webhook đã chạy chưa"** - mở G-Labs Studio (và Voiceover / Voice Studio cho giọng đọc), bật webhook, rồi kiểm tra lại địa chỉ trong Cài đặt.
+
+**Bấm Kiểm tra webhook báo "/api/tasks phản hồi lỗi HTTP (404)"** - địa chỉ đang trỏ tới một chương trình khác (thường là dán nhầm địa chỉ 9Router). Lấy đúng địa chỉ trên trang Webhook của app đó: G-Labs Studio mặc định `http://127.0.0.1:8765`, Voice Studio `http://127.0.0.1:8766`.
+
+**Lô Phân tích báo "AI replied with text instead of JSON"** - model LLM trả về một câu thông báo thay vì kết quả, ví dụ model đã ngừng hỗ trợ ("Claude Sonnet 4.6 is no longer available"). Chọn model khác trong Cài đặt rồi chạy lại lô đó.
 
 **"Webhook từ chối khoá API"** - chép lại API key từ trang Webhook API của G-Labs Studio vào Cài đặt.
 
